@@ -1,0 +1,6 @@
+# print("Hello Kanika!\nHello Kanika!")
+# print("Hello" + " Kanika")
+# print("Hello " + input("What is your name? ") + input("How do you do?"))
+name=input("Enter your name: ")
+le=len(name)
+print(le)
