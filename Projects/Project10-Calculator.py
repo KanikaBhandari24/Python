@@ -14,6 +14,7 @@ logo = """
 | |___|___|___| |___| |  '----------------'  '----------------'  '----------------'  '----------------' 
 |_____________________|
 """
+print(logo)
 def add(n1, n2):
     return n1 + n2
 
@@ -31,6 +32,7 @@ operations = {"+" : add, "-" : sub, "*" : multiply, "/" : divide}
 def calculator():
     num1 = float(input("Enter the first number: "))
     #num2 = int(input("Enter the second number: "))
+    
     for symbol in operations:
         print(symbol)
     should_continue = True
